@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/finalmentoring.iml" filepath="$PROJECT_DIR$/finalmentoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generic/generic.iml" filepath="$PROJECT_DIR$/generic/generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinterest/pinterest.iml" filepath="$PROJECT_DIR$/pinterest/pinterest.iml" />
+    </modules>
+  </component>
+</project>

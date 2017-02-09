@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pinterest Test on Chrome" parallel="methods" thread-count="1">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnv" value="local"/>
+    <parameter name="os" value="Mac"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="url" value="http://www.pinterest.com"/>
+
+
+    <test name = "Amazon Home Page">
+        <classes>
+            <!--<class name="SignIn.TestSignIn"/>-->
+            <class name="ProfilePage.ProfileMenusTest"/>
+        </classes>
+    </test>
+
+</suite>
